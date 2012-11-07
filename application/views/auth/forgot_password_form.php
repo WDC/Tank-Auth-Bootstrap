@@ -12,13 +12,34 @@ if ($this->config->item('use_username', 'tank_auth')) {
 	$login_label = 'Email';
 }
 ?>
-<?php echo form_open($this->uri->uri_string()); ?>
-<table>
-	<tr>
-		<td><?php echo form_label($login_label, $login['id']); ?></td>
-		<td><?php echo form_input($login); ?></td>
-		<td style="color: red;"><?php echo form_error($login['name']); ?><?php echo isset($errors[$login['name']])?$errors[$login['name']]:''; ?></td>
-	</tr>
-</table>
-<?php echo form_submit('reset', 'Get a new password'); ?>
-<?php echo form_close(); ?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="bootstrap.css" rel="stylesheet">
+        <title>Forgot Password</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="span6 offset3">
+                    <div class="well">
+                        <center>
+							<h2>Reset Password</h2>
+                            <?php echo form_open($this->uri->uri_string()); ?>
+                            <div class="control-group">
+                                <?php echo form_label($login_label, $login['id'], array('class' => 'control-label')); ?>
+                                <div class="controls">
+                                    <?php echo form_error('login'); ?>                                
+                                    <?php echo form_input($login); ?>
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+                            <?php echo form_submit('reset', 'Get A New Password', 'class="btn btn-primary"'); ?>
+                            <?php echo form_close(); ?>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
