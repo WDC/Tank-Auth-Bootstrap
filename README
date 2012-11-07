@@ -1,4 +1,4 @@
-Tank Auth + Bootstrap is an authentication library for PHP-framework CodeIgniter. It's based on DX Auth, althouth the code was seriously reworked. It utilizes the Twitter Bootstrap Framework for all the views.
+Tank Auth + Bootstrap is an authentication library for PHP-framework CodeIgniter. It's based on DX Auth, although the code was seriously reworked. It utilizes the Twitter Bootstrap Framework for all the views.
 
 Changelog
 
