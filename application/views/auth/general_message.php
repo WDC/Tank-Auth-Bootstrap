@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="http://assets.delcoe.com/bootstrap.css" rel="stylesheet">
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
 <title>Notice</title>
 </head>
 <body>

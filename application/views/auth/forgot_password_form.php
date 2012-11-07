@@ -15,7 +15,7 @@ if ($this->config->item('use_username', 'tank_auth')) {
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="bootstrap.css" rel="stylesheet">
+        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <title>Forgot Password</title>
     </head>
     <body>

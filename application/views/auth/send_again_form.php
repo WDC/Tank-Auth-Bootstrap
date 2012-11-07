@@ -10,7 +10,7 @@ $email = array(
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="bootstrap.css" rel="stylesheet">
+        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <title>Send Again</title>
     </head>
     <body>
