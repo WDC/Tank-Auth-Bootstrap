@@ -46,8 +46,8 @@ $captcha = array(
 		<div class="row">
 			<div class="span6 offset3">
 				<div class="well">
-					<h2>Register!</h2>
 					<center>
+					<h2>Register!</h2>
 <?php echo form_open($this->uri->uri_string()); ?>
 
 	<?php if ($use_username): ?>
