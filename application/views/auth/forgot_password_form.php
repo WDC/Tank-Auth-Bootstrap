@@ -24,7 +24,7 @@ if ($this->config->item('use_username', 'tank_auth')) {
                 <div class="span6 offset3">
                     <div class="well">
                         <center>
-							<h2>Reset Password</h2>
+			    <h2>Reset Password</h2>
                             <?php echo form_open($this->uri->uri_string()); ?>
                             <div class="control-group">
                                 <?php echo form_label($login_label, $login['id'], array('class' => 'control-label')); ?>
