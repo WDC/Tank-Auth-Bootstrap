@@ -1,4 +1,6 @@
 <?php
+$this->config->load('tankstrap'); 
+$tankstrap = $this->config->item('tankstrap');
 $login = array(
 	'name'	=> 'login',
 	'id'	=> 'login',
@@ -15,8 +17,8 @@ if ($this->config->item('use_username', 'tank_auth')) {
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
-        <title>Forgot Password</title>
+        <link href="<?php echo $tankstrap["bootstrap_path"];?>" rel="stylesheet">
+        <title><?php echo $tankstrap["forgot_page_title"];?></title>
     </head>
     <body>
         <div class="container">

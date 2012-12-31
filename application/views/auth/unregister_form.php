@@ -1,4 +1,6 @@
 <?php
+$this->config->load('tankstrap'); 
+$tankstrap = $this->config->item('tankstrap');
 $password = array(
 	'name'	=> 'password',
 	'id'	=> 'password',
@@ -8,8 +10,8 @@ $password = array(
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
-        <title>Delete Account</title>
+        <link href="<?php echo $tankstrap["bootstrap_path"];?>" rel="stylesheet">
+        <title><?php echo $tankstrap["delete_page_title"];?></title>
     </head>
     <body>
         <div class="container">

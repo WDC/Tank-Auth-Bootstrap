@@ -1,7 +1,8 @@
+<?php $this->config->load('tankstrap'); $tankstrap = $this->config->item('tankstrap');?>
 <!DOCTYPE html>
 <html lang="en">
-<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
-<title>Login to YOUR APPLICATION</title>
+<link href="<?php echo $tankstrap["bootstrap_path"];?>" rel="stylesheet">
+<title><?php echo $tankstrap["login_page_title"];?></title>
 
 <?php
 $login = array(
