@@ -1,1 +1,3 @@
 These are the views for Tank_auth (or Croomy_auth) that utilize the lovely Twitter Bootstrap Framework. It saves many hours of styling the auth forms.
+
+Configuration can be found in config/tankstrap.php, this allows you to set the path to a local bootstrap.css (or any other), as well as set the page titles. Values should be self- explanitory. 

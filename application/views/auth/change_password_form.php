@@ -1,4 +1,6 @@
 <?php
+$this->config->load('tankstrap'); 
+$tankstrap = $this->config->item('tankstrap');
 $old_password = array(
 	'name'	=> 'old_password',
 	'id'	=> 'old_password',
@@ -21,8 +23,8 @@ $confirm_new_password = array(
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css" rel="stylesheet">
-        <title>Change Email Address</title>
+        <link href="<?php echo $tankstrap["bootstrap_path"];?>" rel="stylesheet">
+        <title><?php echo $tankstrap["change_pw_page_title"];?></title>
     </head>
     <body>
         <div class="container">
