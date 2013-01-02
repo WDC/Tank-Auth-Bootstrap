@@ -10,4 +10,4 @@ $config["tankstrap"] = array (
 	"forgot_page_title"       => "Forgot Password",
 	"change_pw_page_title"    => "Change Password",
 	"change_email_page_title" => "Change Email Address",
-							 );
+);
